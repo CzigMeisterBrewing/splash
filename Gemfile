@@ -1,4 +1,4 @@
-# source 'https://rubygems.org'
+source 'https://rubygems.org'
 ruby '2.1.4'
 
 gem 'annotate',    '2.6.5'
