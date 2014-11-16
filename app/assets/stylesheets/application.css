@@ -10,6 +10,19 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ *  #################################
+ *  # Load Assets for Maximum Theme #
+ *  #################################
+ *
+ *= require css/bootstrap
+ *= require css/style
+ *= require css/flexslider
+ *= require css/bootstrap-responsive
+ *
+ *  ############################################
+ *  # Load self (in-file CSS) and other files. #
+ *  ############################################
+ *
  *= require_self
+ *= require_tree .
  */

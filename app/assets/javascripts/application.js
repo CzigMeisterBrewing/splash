@@ -13,4 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//
+//  #################################
+//  # Load Assets for Maximum Theme #
+//  #################################
+//
+//= require js/jquery.flexslider
+//= require js/onepage/js/main
+//= require js/bootstrap
+//
 //= require_tree .
