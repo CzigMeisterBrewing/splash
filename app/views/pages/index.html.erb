@@ -12,7 +12,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="index.html"><img src="assets/img/logosmall.png" alt="MAXIMUM"></a>
+          <a class="brand" href="index.html">
+            <%= image_tag 'img/logosmall.png' %>
+          </a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="dropdown">
@@ -183,19 +185,19 @@
           <h1>OUR FOUNDATION</h1>
           <div class="span4">
             <h3>Innovative Design</h3>
-            <img src="assets/img/service01.png" alt="">
+            <%= image_tag 'img/service01.png' %>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div><!-- /span4 -->
 
           <div class="span4">
             <h3>Open Source</h3>
-            <img src="assets/img/service02.png" alt="">
+            <%= image_tag 'img/service02.png' %>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div><!-- /span4 -->
 
           <div class="span4">
             <h3>Good Price</h3>
-            <img src="assets/img/service04.png" alt="">
+            <%= image_tag 'img/service04.png' %>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div><!-- /span4 -->
 
@@ -211,7 +213,7 @@
           <br>
           <br>
           <div class="span6">
-            <img src="assets/img/landing/iphone_white.png" alt="">
+            <%= image_tag 'img/landing/iphone_white.png' %>
           </div><!-- /span6 -->
           <div class="span4">
             <h1>iPhone White</h1>
@@ -229,7 +231,7 @@
           <br>
           <br>
           <div class="span6">
-            <img src="assets/img/landing/iphone_black_02.png" alt="">
+            <%= image_tag 'img/landing/iphone_black_02.png' %>
           </div><!-- /span6 -->
           <div class="span4">
             <h1>iPhone Black</h1>
@@ -255,17 +257,6 @@
         </div><!-- /row -->
       </div><!-- /container -->
     </div><!-- /landinkwrap-02 -->
-
-  <div id="twitterwrap">
-    <img src="assets/img/twitter.png" alt="">
-    <br>
-    <br>
-    <div id="jstwitter" class="clearfix">
-      <ul id="twitter_update_list"></ul>
-    </div>
-    <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script><!-- Script Needed to load the Tweets -->
-    <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/basicoh_.json?callback=twitterCallback2&count=1"></script>
-  </div>
   <div id="footerwrap">
   <em>MADE IN MADRID</em>
   <br>
@@ -276,14 +267,12 @@
   <p><a href="#">GET DIRECTIONS</a></p>
   <br>
   <div class="social_icons">
-    <a href="#"><img src="assets/img/social/white/dribbble.png" width="30" height="30" alt="Dribbble"></a>
-    <a href="#"><img src="assets/img/social/white/facebook.png" width="30" height="30" alt="Facebook"></a>
-    <a href="#"><img src="assets/img/social/white/gplus.png" width="30" height="30" alt="GooglePlus"></a>
-    <a href="#"><img src="assets/img/social/white/instagram.png" width="30" height="30" alt="Instagram"></a>
-    <a href="#"><img src="assets/img/social/white/linkedin.png" width="30" height="30" alt="LinkedIn"></a>
-    <a href="#"><img src="assets/img/social/white/pinterest.png" width="30" height="30" alt="Pinterest"></a>
-    <a href="#"><img src="assets/img/social/white/twitter.png" width="30" height="30" alt="Twitter"></a>
+    <a href="#"><%= image_tag 'img/social/white/dribbble.png',  width: "30", height: "30", alt: "Dribbble"   %></a>
+    <a href="#"><%= image_tag 'img/social/white/facebook.png',  width: "30", height: "30", alt: "Facebook"   %></a>
+    <a href="#"><%= image_tag 'img/social/white/gplus.png',     width: "30", height: "30", alt: "GooglePlus" %></a>
+    <a href="#"><%= image_tag 'img/social/white/instagram.png', width: "30", height: "30", alt: "Instagram"  %></a>
+    <a href="#"><%= image_tag 'img/social/white/linkedin.png',  width: "30", height: "30", alt: "LinkedIn"   %></a>
+    <a href="#"><%= image_tag 'img/social/white/pinterest.png', width: "30", height: "30", alt: "Pinterest"  %></a>
+    <a href="#"><%= image_tag 'img/social/white/twitter.png',   width: "30", height: "30", alt: "Twitter"    %></a>
   </div><!-- End of social icons -->
-
-
   </div>

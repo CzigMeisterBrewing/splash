@@ -29,5 +29,7 @@ module CzigMeister
 
     # Add in asset path for Maximum theme.
     config.assets.paths << Rails.root.join('app/vender/assets/maximum')
+    # Precompile images for asset pipeline.
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
