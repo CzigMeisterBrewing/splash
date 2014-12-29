@@ -1,0 +1,7 @@
+<h1>Design Options</h1>
+
+<% 3.times do |i| %>
+  <h2 class="middle">
+    <%= link_to "Design #{i+1}", send("design#{i+1}_path") %>
+  </h2>
+<% end %>
