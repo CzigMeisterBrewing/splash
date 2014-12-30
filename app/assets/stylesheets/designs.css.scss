@@ -11,16 +11,27 @@ body {
   padding-top: 25px;
 }
 
-h1, h2 {
-  margin: 0;
-}
-
-h2 {
-  margin: 15px 0 15px 0;
-}
+form   { margin-top: -15px; }
+h1, h2 { margin: 0; }
+h2     { margin: 15px 0 15px 0; }
 
 aside {
   background-color: rgba(255,255,255,0.75);
+  padding: 15px;
+}
+
+section#highlights img {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+}
+
+section#social img {
+  margin: 0px 5px 0px 5px;
+  height: 100px;
+  width: 100px;
 }
 
 input[type=email] {
@@ -38,9 +49,7 @@ input[type=submit] {
   width: 25%;
 }
 
-#logo-clr {
-  width: 85%;
-}
+#logo-clr { width: 85%; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -55,5 +64,11 @@ and (max-width : 480px) {
     display: block;
     margin: 10px auto 10px auto;
     width: 35%;
+  }
+
+  section#social img {
+    margin: 0px 20px 0px 20px;
+    height: 100px;
+    width: 100px;
   }
 }
