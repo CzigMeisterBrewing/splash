@@ -1,31 +1,15 @@
 <div class="container middle">
   <div class="row-fluid">
     <div class="span4">
-      <img src="<%= image_url('logo_mashpaddlewithname_clear.png') %>">
+      <img id="logo-clr" src="<%= image_url('logo_mashpaddlewithname_clear.png') %>">
     </div>
 
-    <div class="span8">
-      <h1>Czig Meister Brewing</h1>
-
-      <div class="row-fluid">
-        <div class="span4">
-          <img src="http://placekitten.com/g/200/200" alt="">
-          <h3>DISCOVER</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus adipisci, excepturi, reiciendis tenetur non molestiae nesciunt, porro ratione, ut voluptates animi!</p>
-        </div>
-
-        <div class="span4">
-          <img src="http://placekitten.com/g/200/200" alt="">
-          <h3>DISCOVER</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus adipisci, excepturi, reiciendis tenetur non molestiae nesciunt, porro ratione, ut voluptates animi!</p>
-        </div>
-
-        <div class="span4">
-          <img src="http://placekitten.com/g/200/200" alt="">
-          <h3>DISCOVER</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus adipisci, excepturi, reiciendis tenetur non molestiae nesciunt, porro ratione, ut voluptates animi!</p>
-        </div>
-      </div>
-    </div>
+    <aside class="span8">
+      <h1 class="logo-font">Czig Meister Brewing</h1>
+      <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+      <%= render 'shared/designs/highlights' %>
+      <%= render 'shared/designs/mailchimp'  %>
+      <%= render 'shared/designs/social'     %>
+    </aside>
   </div>
 </div>

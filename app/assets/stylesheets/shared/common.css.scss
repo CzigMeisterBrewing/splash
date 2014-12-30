@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Frankie';
+  src: asset-url('Frankie.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-font {
+  color: black;
+  font-family: 'Frankie';
+}

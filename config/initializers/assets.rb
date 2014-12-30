@@ -8,3 +8,4 @@ Rails.application.config.assets.paths << Rails.root.join('app/vender/assets/maxi
 # Precompile addtiaional assets.
 Rails.application.config.assets.precompile += [/.*\.js/,/.*\.css/]
 Rails.application.config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+Rails.application.config.assets.precompile += %w(*.svg *.eot *.woff *.ttf)

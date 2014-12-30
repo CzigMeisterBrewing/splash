@@ -8,5 +8,52 @@ html {
 
 body {
   background: none;
-  padding-top: 75px;
+  padding-top: 25px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h2 {
+  margin: 15px 0 15px 0;
+}
+
+aside {
+  background-color: rgba(255,255,255,0.75);
+}
+
+input[type=email] {
+  font-size: 18px;
+  font-weight: 500;
+  height: 30px;
+  margin: 0;
+}
+
+input[type=submit] {
+  background: #e25740;
+  font-size: 18px;
+  padding: 10px 38px 10px 36px;
+  margin: 0;
+  width: 25%;
+}
+
+#logo-clr {
+  width: 85%;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+  #logo-clr {
+    padding-bottom: 50px;
+    width: 50%;
+  }
+
+  input[type=submit] {
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 35%;
+  }
 }
