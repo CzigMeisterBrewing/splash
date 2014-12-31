@@ -1,9 +1,3 @@
-<style>
-  html {
-    background: url('/assets/design-orig.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-</style>
+<% content_for :stylesheets do %>
+  <%= stylesheet_link_tag 'original-design', media: 'all' %>
+<% end %>
