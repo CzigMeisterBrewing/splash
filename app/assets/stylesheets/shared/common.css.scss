@@ -1,3 +1,19 @@
+body {
+  background: none;
+  padding: 25px 0px 25px 0px;
+}
+
+h1 { font-size: 60px; }
+h2 { font-size: 48px; }
+h3 { font-size: 36px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
+
+h1,h2,h3,h4,h5,h6 { margin: 0; }
+
+/* Typography */
+
 @font-face {
   font-family: 'Frankie';
   src: asset-url('Frankie.ttf') format('truetype');
@@ -8,4 +24,13 @@
 .logo-font {
   color: black;
   font-family: 'Frankie';
+
+  .red   { color: #9E1D1C; }
+  .white { color: #FFF9D3; }
+}
+
+/* Styling */
+
+.uppercase {
+  text-transform: uppercase;
 }
