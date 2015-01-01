@@ -1,4 +1,5 @@
 a     { text-decoration: none; }
+form  { margin: 0px 0px 10px 0px; }
 aside { padding: 15px; }
 h1    { padding: 10px; }
 
@@ -31,7 +32,7 @@ section#highlights img {
 }
 
 section#social img {
-  margin: 0px 5px 0px 5px;
+  margin: -10px 5px 0px 5px;
   height: 100px;
   width: 100px;
 }
@@ -40,7 +41,7 @@ input[type=email] {
   border: 3px solid black;
   border-radius: 10px;
   font-size: 18px;
-  height: 30px;
+  height: 26px;
   margin: 0;
   width: 40%;
 }
@@ -53,6 +54,11 @@ input[type=submit] {
   padding: 10px 0 10px 0;
   margin: 0;
   width: 30%;
+}
+
+input[type=submit]:hover {
+  background: #890908;
+  box-shadow: inset 0 0 0 3px black;
 }
 
 #logo-clr {
