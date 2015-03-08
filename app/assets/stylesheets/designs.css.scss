@@ -70,10 +70,7 @@ input[type=submit]:hover {
 @media only screen and (min-width : 320px) and (max-width : 480px) {
   h1 { font-size: 30px; }
   h2 { font-size: 24px; }
-  h4 {
-    line-height: 24px;
-    padding: 10px;
-  }
+  h4 { line-height: 24px; padding: 10px; }
   #logo-clr          { width: 50%; }
   input[type=email]  { width: 75%; }
 
@@ -88,4 +85,24 @@ input[type=submit]:hover {
     height: 100px;
     width: 100px;
   }
+}
+
+/* Tablet Styling */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  h1 { font-size: 36px; }
+  h2 { font-size: 32px; }
+  h4 { font-size: 22px; }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  h1 { font-size: 30px; }
+  h2 { font-size: 26px; }
+  h4 { font-size: 20px; }
+  input[type=submit] { font-size: 14px; }
+
+  .container        { margin: auto };
+  .row-fluid .span4 { width: 45%; }
+  .row-fluid .span8 { width: 50%; float: right; }
+
+  #mc_embed_signup_scroll h4 { line-height: 20px; padding: 10px 10px 5px 10px; }
 }
