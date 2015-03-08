@@ -20,8 +20,9 @@ gem 'uglifier',       '>= 2.6.0'
 # Database / Server #
 #####################
 
-gem 'pg',      '0.17.1'
-gem 'unicorn', '4.8.3'
+gem 'pg',            '0.17.1'
+gem 'unicorn',       '4.8.3'
+gem 'unicorn-rails', '2.2.0'
 
 ##############
 # Test Tools #
