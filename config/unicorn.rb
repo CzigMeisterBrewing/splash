@@ -1,9 +1,8 @@
-preload_app true
-
-if Rails.env.development? || Rails.env.test?
+if ::Rails.env.development? || ::Rails.env.test?
   worker_processes 1
   timeout 10000
 else
+  preload_app true
   worker_processes Integer(ENV["WEB_CONCURRENCY"] || 3)
   timeout 15
 end
