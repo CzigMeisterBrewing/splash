@@ -1,13 +1,6 @@
 preload_app true
-
-if ::Rails.env.development? || ::Rails.env.test?
-  worker_processes 1
-  timeout 10000
-else
-  preload_app true
-  worker_processes Integer(ENV["WEB_CONCURRENCY"] || 3)
-  timeout 15
-end
+worker_processes Integer(ENV["WEB_CONCURRENCY"] || 3)
+timeout 15
 
 before_fork do |server, worker|
   Signal.trap 'TERM' do
