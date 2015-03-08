@@ -1,3 +1,5 @@
+preload_app true
+
 if ::Rails.env.development? || ::Rails.env.test?
   worker_processes 1
   timeout 10000
