@@ -11,7 +11,7 @@ html {
   background-size: cover;
 }
 
-html, body { height: 100%;          }
+html, body { height: 100%; }
 html { display: table; width: 100%; }
 body { display: table-cell; text-align: center; vertical-align: middle; }
 
@@ -71,24 +71,27 @@ input[type=submit]:hover {
 }
 
 /* Mobile Styling */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-  h1 { font-size: 30px; }
-  h2 { font-size: 24px; }
-  h4 { line-height: 24px; padding: 10px; }
-  #logo-clr          { width: 50%; }
-  input[type=email]  { width: 75%; }
+@media only screen and (min-width : 320px) and (max-width : 736px) {
+  @media (orientation : portrait) {
+    h1 { font-size: 30px; }
+    h2 { font-size: 24px; }
+    h4 { line-height: 24px; padding: 10px; }
 
-  input[type=submit] {
-    display: block;
-    margin: 10px auto 10px auto;
-    width: 50%;
+    input[type=email]  { width: 75%; }
+    input[type=submit] {
+      display: block;
+      margin: 10px auto 10px auto;
+      width: 50%;
+    }
+
+    section#social img {
+      margin: 0px 10px 0px 10px;
+      height: 100px;
+      width: 100px;
+    }
   }
 
-  section#social img {
-    margin: 0px 10px 0px 10px;
-    height: 100px;
-    width: 100px;
-  }
+  #logo-clr { width: 50%; }
 }
 
 /* Tablet Styling */
