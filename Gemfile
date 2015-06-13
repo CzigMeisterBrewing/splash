@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
+ruby '2.2.1'
 
 gem 'annotate',    '2.6.5'
 gem 'figaro',      '1.0.0'
