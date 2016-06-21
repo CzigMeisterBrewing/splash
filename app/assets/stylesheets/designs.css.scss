@@ -16,6 +16,10 @@ html { display: table; width: 100%; }
 body { display: table-cell; text-align: center; vertical-align: middle; }
 
 .logo-font {
+  .red {
+    .outline { text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black; }
+  }
+
   .white { text-shadow: 3px 3px #000000; }
 }
 
