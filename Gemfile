@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.1'
+ruby '2.7.2'
 
 gem 'annotate',    '2.6.5'
 gem 'figaro',      '1.0.0'
@@ -35,9 +35,6 @@ end
 group :development, :test do
   gem 'better_errors',         '2.1.0'
   gem 'binding_of_caller',     '0.7.2'
-
-  gem 'jazz_hands', github: 'jkrmr/jazz_hands'
-
   gem 'capybara',           '~> 2.4.0'
   gem 'factory_girl_rails',    '4.5.0'
   gem 'rspec-rails',        '~> 3.1.0'
